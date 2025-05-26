@@ -1,5 +1,9 @@
 const Contact = () => {
-  return <section className="h-screen bg-pink-200">contact</section>;
+  return (
+    <div id="contact" className="h-screen bg-pink-200">
+      contact
+    </div>
+  );
 };
 
 export default Contact;

@@ -1,5 +1,9 @@
 const Work = () => {
-  return <section className="h-screen bg-yellow-200">work</section>;
+  return (
+    <div id="projects" className="h-screen bg-yellow-200">
+      work
+    </div>
+  );
 };
 
 export default Work;

@@ -1,5 +1,9 @@
 const Services = () => {
-  return <section className="h-screen bg-green-200">services</section>;
+  return (
+    <div id="services" className="h-screen bg-green-200">
+      services
+    </div>
+  );
 };
 
 export default Services;
