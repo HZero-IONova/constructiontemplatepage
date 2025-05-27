@@ -148,6 +148,9 @@
   .h4 {
     @apply font-semibold text-2xl;
   }
+  .icon-4xl {
+    font-size: 56px;
+  }
 
   .group:hover .group-hover-text-outline {
     color: transparent;
