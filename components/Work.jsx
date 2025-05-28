@@ -60,7 +60,7 @@ const Work = () => {
               />
               <div className="w-[90%] h-[84px] bg-primary absolute bottom-4 flex justify-between items-center text-white md:translate-y-[108px] md:group-hover:translate-y-0 transition-all duration-500">
                 <div className="pl-8">
-                  <h4 className="h4 text-white font-primary font-semibold tracking-[1px] uppercase">
+                  <h4 className="text-white font-primary font-semibold tracking-[1px] uppercase">
                     {item.name}
                   </h4>
                   <div className="flex items-center gap-1">
