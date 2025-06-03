@@ -1,11 +1,21 @@
+"use client";
 import { RiChat1Line, RiMapPin2Line, RiSmartphoneLine } from "react-icons/ri";
 import Socials from "./Socials";
 import Form from "./Form";
 
+import { motion } from "framer-motion";
+import { fadeIn } from "@/variants";
+
 const Contact = () => {
   return (
-    <section id="contact" className="pt-16 xl:pt-32">
-      <div className="container mx-auto">
+    <section className="pt-16 xl:pt-32" id="contact">
+      <motion.div
+        variants={fadeIn("up", 0.1)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.2 }}
+        className="container mx-auto"
+      >
         <div className="w-full xl:h-[730px] custom-shadow p-4 xl:p-8 xl:px-[90px] xl:py-[36px] border-t-4 border-accent">
           <div className="flex flex-col xl:flex-row h-full gap-[40px] xl:gap-[90px]">
             {/** info */}
@@ -71,7 +81,7 @@ const Contact = () => {
               </div>
             </div>
             {/** form */}
-            <div className="flex-1">
+            <div className="flex-1 xs:mt-[15px] sm:mt-[15px] md:mt-[15px]">
               <h2 className="h2 mb-3">Request a Quote</h2>
               <p className="mb-9">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -81,7 +91,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

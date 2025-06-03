@@ -1,3 +1,4 @@
+"use client";
 import { RiPhoneFill, RiMailFill } from "react-icons/ri";
 import Socials from "./Socials";
 

@@ -1,3 +1,5 @@
+"use client";
+
 const Pretitle = ({ text, center }) => {
   return (
     <div

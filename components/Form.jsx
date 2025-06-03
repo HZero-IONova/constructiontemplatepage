@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Select,
   SelectContent,
@@ -14,7 +16,7 @@ import Button from "./Button";
 
 const Form = () => {
   return (
-    <form className="flex flex-col ">
+    <form className="flex flex-col">
       <div className="flex flex-col gap-[20px] mb-[20px]">
         <Input type="fullname" placeholder="Full Name" />
         <Input type="email" placeholder="Email Address" />
